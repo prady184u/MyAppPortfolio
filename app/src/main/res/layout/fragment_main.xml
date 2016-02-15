@@ -1,0 +1,135 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.udacity.pradeepkumarr.myappportfolio.MainActivityFragment"
+    tools:showIn="@layout/activity_main">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/subjectTxtView"
+        android:id="@+id/textView"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/fab_margin"
+        android:layout_marginTop="@dimen/fab_margin"/>
+
+<!--
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/dummy"
+        android:layout_gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginBottom="@dimen/fab_margin"  />-->
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/spotiyBtnName"
+        android:id="@+id/button"
+        android:layout_gravity="center"
+        android:layout_below="@+id/textView"
+        android:background="#F08C35"
+
+        android:onClick="sendMessage"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginBottom="@dimen/fab_margin" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/scoreAppBtnName"
+        android:id="@+id/scoresapp"
+        android:layout_gravity="center"
+        android:layout_below="@+id/button"
+        android:background="#F08C35"
+
+        android:onClick="sendMessage"
+        android:layout_alignRight="@+id/button"
+        android:layout_alignEnd="@+id/button"
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignStart="@+id/button"
+        android:layout_marginBottom="@dimen/fab_margin" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/libAppBtnName"
+        android:id="@+id/libraryapp"
+        android:layout_gravity="center"
+        android:layout_below="@+id/scoresapp"
+        android:background="#F08C35"
+
+        android:onClick="sendMessage"
+        android:layout_alignLeft="@+id/scoresapp"
+        android:layout_alignStart="@+id/scoresapp"
+        android:layout_alignRight="@+id/scoresapp"
+        android:layout_alignEnd="@+id/scoresapp"
+        android:layout_marginBottom="@dimen/fab_margin" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bibBtnName"
+        android:id="@+id/builditbigger"
+        android:layout_gravity="center"
+        android:layout_below="@+id/libraryapp"
+        android:background="#F08C35"
+
+        android:onClick="sendMessage"
+        android:layout_alignLeft="@+id/libraryapp"
+        android:layout_alignStart="@+id/libraryapp"
+        android:layout_alignRight="@+id/libraryapp"
+        android:layout_alignEnd="@+id/libraryapp"
+        android:layout_marginBottom="@dimen/fab_margin" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/capstoneBtnName"
+        android:id="@+id/capstoneapp"
+        android:layout_gravity="center"
+        android:layout_below="@+id/xyzreader"
+        android:background="#fd0101"
+
+        android:onClick="sendMessage"
+        android:layout_alignLeft="@+id/xyzreader"
+        android:layout_alignStart="@+id/xyzreader"
+        android:layout_alignRight="@+id/xyzreader"
+        android:layout_alignEnd="@+id/xyzreader"
+        android:layout_marginBottom="@dimen/fab_margin" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/xyzBtnName"
+        android:id="@+id/xyzreader"
+        android:layout_gravity="center"
+        android:layout_below="@+id/builditbigger"
+        android:background="#F08C35"
+
+        android:onClick="sendMessage"
+        android:layout_alignLeft="@+id/builditbigger"
+        android:layout_alignStart="@+id/builditbigger"
+        android:layout_alignRight="@+id/builditbigger"
+        android:layout_alignEnd="@+id/builditbigger"
+        android:layout_marginBottom="@dimen/fab_margin" />
+
+</RelativeLayout>
